@@ -1,0 +1,188 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  background-color: #808F9A;
+}
+body {
+  width: 85%;
+  margin: 10px auto;
+  border-radius: 3px;
+  border-color: #ffd24a;
+  border-width: 3px;
+  border-style: solid;
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #1fabe5;
+}
+
+ul {
+  font-weight: bold;
+  margin-left: 20px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+
+#site_header {
+  background-color: #ff8523;
+  /* these aren't working? */
+  border-color: #ffd24a;
+  border-width: 3px;
+  /* these are though */
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+}
+
+.main_navigation {
+  padding-top: 20px;
+}
+
+.main_navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 8px 30px;
+}
+
+section {
+  border-bottom: solid;
+  border-color: #dddddd;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+#page_content {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+section h2 {
+  color: #1fabe5;
+  padding-bottom: 20px;
+}
+
+section h3 {
+  color: #1fabe5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+table {
+  border-style: solid;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #1fabe5;
+  margin-top: 20px;
+}
+
+td {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1fabe5;
+  margin:0px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+td img {
+  height: 50px;
+  width: 50px;
+}
+
+thead {
+  background-color: #1fabe5;
+  color: #ffffff;
+}
+
+form {
+  background-color: #eee;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+div label {
+  font-weight: bold;
+}
+
+div input {
+  height: 40px;
+  width: 200px;
+}
+
+.name label {
+  padding-left: 20px;
+}
+
+.name {
+  background-color: #ff8523;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
+
+.city_container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#bio {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #1fabe5;
+  width: 100%;
+  height: 200px;
+}
+
+#bio {
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#submit_button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #1fabe5;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 105px;
+  height: 45px;
+  box-shadow: none;
+  border-radius: 5px;
+  border-color: #1fabe5;
+  border-style: none;
+}
