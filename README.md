@@ -1,14 +1,16 @@
 # README
 
-This document contains some basic instructions for how to interact with this project.
+This assessment tests your basic knowledge of CSS and styling.
 
-## Solution Files
+Your task is to review index.png and index.html and to write the CSS to match the mockup.
 
-This is a project and does not contain solution files.
+At the end of this project, your HTML file, when rendered in the browser, should closely match the mockup.
 
 ## Resources
 
-The resources folder contains files designed to help you complete the activity. This will include screen shots of the completed HTML and files containing the text.
+The resources folder contains the screenshot of the final HTML page.
+
+The source_files folder contains the starter HTML file, the img folder (containing all of the images for the page), and a blank CSS file. The CSS file is already linked up to the HTML file, so you can go ahead and code away with your styles.
 
 ### Screen Shots
 
